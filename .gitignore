@@ -1,0 +1,18 @@
+.env
+.DS_Store
+.fonts
+
+# Build output
+dictation
+Dictation.app
+Dictate.app/
+Dictate.zip
+
+# Generated logos
+logo-*.png
+
+# Certificates
+*.cer
+
+# Export utility
+export_logo.swift
