@@ -8,8 +8,9 @@ Dictation.app
 Dictate.app/
 Dictate.zip
 
-# Generated logos
+# Generated logos (keep the 256px one for the README)
 logo-*.png
+!logo-256.png
 
 # Certificates
 *.cer

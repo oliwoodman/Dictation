@@ -26,14 +26,14 @@ Single-file Swift app (`dictation.swift`, ~1685 lines) compiled directly with `s
 ./build.sh
 
 # Signed + notarized build
-SIGN_IDENTITY="Developer ID Application: Oli Woodman (YOURTEAMID)" \
+SIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" \
 APPLE_ID="you@example.com" \
 TEAM_ID="YOURTEAMID" \
 APP_PASSWORD="<app-specific-password>" \
 ./build.sh
 ```
 
-Output: `Dictate.app` and `Dictate.zip` (for upload to Lemon Squeezy).
+Output: `Dictate.app` and `Dictate.zip` (attach to a GitHub Release).
 
 - Bundle ID: `com.oliwoodman.dictate`
 - Entitlements: `entitlements.plist` (mic, Apple Events, unsigned executable memory)
@@ -45,13 +45,8 @@ Output: `Dictate.app` and `Dictate.zip` (for upload to Lemon Squeezy).
 - App icon: Waveform bars on rounded rect (generated in build.sh via Swift script)
 - Fonts: SF Rounded Bold for titles, system fonts elsewhere
 
-## Landing Page
+## Distribution
 
-Lives in a separate repo (`/Users/oliwoodman/Side Projects/oliwoodman/`):
-- **Page**: `app/dictate/page.tsx` + `app/dictate/content.tsx`
-- **Waitlist API**: `app/api/dictate/waitlist/route.ts` → Supabase `dictate_waitlist` table
-- Currently shows waitlist form; will switch to Lemon Squeezy checkout link for purchase
-
-## Payment
-
-Lemon Squeezy — £1 one-time payment. Handles VAT as merchant of record.
+Open source under the MIT license. Prebuilt, signed + notarized `Dictate.zip` is
+attached to GitHub Releases for non-technical users; developers can build from
+source with `./build.sh`.
