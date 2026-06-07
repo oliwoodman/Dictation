@@ -13,7 +13,7 @@ Lightning-fast voice-to-text for macOS. Press a hotkey, speak, and your words ap
 ---
 
 > [!NOTE]
-> **This project is not actively maintained.** I built Dictate for myself and use it daily — it works, but it has rough edges and I'm not managing issues, fixing bugs, or reviewing pull requests. It's shared as-is, for free, under the MIT license. Fork it and make it your own. 🙂
+> **This project is not actively maintained.** I built Dictate for myself and use it daily — it works, but it has rough edges and I'm not managing issues, fixing bugs, or reviewing pull requests. It's shared as-is, for free, under the MIT license. Fork it and make it your own.
 
 Dictate is a tiny macOS menu bar app. Hold **Right Option + Space**, talk, let go, and your transcribed text is pasted into whatever app you're in. Transcription runs on [Groq's](https://groq.com) Whisper API, so words usually appear in under a second.
 
