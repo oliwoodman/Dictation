@@ -45,6 +45,10 @@ Output: `Dictate.app` and `Dictate.zip` (attach to a GitHub Release).
 - App icon: Waveform bars on rounded rect (generated in build.sh via Swift script)
 - Fonts: SF Rounded Bold for titles, system fonts elsewhere
 
+## Promo videos
+
+`promo/` is a Remotion project that renders the product promo and the setup-wizard walkthrough; its README says how.
+
 ## Distribution
 
 Open source under the MIT license. Prebuilt, signed + notarized `Dictate.zip` is
