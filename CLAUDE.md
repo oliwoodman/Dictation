@@ -33,7 +33,7 @@ APP_PASSWORD="<app-specific-password>" \
 ./build.sh
 ```
 
-Output: `Dictate.app` and `Dictate.zip` (attach to a GitHub Release).
+Output: `Dictate.app` and `Dictate.zip` (attach to a GitHub Release):
 
 - Bundle ID: `com.oliwoodman.dictate`
 - Entitlements: `entitlements.plist` (mic, Apple Events, unsigned executable memory)
@@ -41,9 +41,9 @@ Output: `Dictate.app` and `Dictate.zip` (attach to a GitHub Release).
 
 ## Branding
 
-- Accent color: `#c15f3c`
-- App icon: Waveform bars on rounded rect (generated in build.sh via Swift script)
-- Fonts: SF Rounded Bold for titles, system fonts elsewhere
+- **Accent colour:** `#c15f3c`
+- **App icon:** Waveform bars on a rounded rect, generated in build.sh by a Swift script
+- **Fonts:** SF Rounded Bold for titles, system fonts elsewhere
 
 ## Promo videos
 
